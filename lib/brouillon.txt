@@ -1,0 +1,20 @@
+gestionOrientation : function(direction) {
+				// switch(o) {
+				//     case 'N':
+				//     	o = affectationDirections.N[direction]
+				//         break;
+				//     case 'S':
+				//         o = affectationDirections.S[direction]
+				//         break;
+				//     case 'E':
+				//         o = affectationDirections.E[direction]
+				//         break;
+				//     case 'W':
+				//         o = affectationDirections.W[direction]
+				//         break;
+				// }	
+				o = affectationDirections[o][direction]; 
+				console.log("direction resultat : " + o);
+				return o;
+			},
+
